@@ -1,0 +1,9 @@
+﻿"Table 2: Annualised mean return, SD and Sharpe ratio of the four optimal portfolios"
+Portfolio,Short sales,Annualised mean return (%),Annualised SD (%),Sharpe ratio
+GMV (no short),"Not permitted [0, 1]",16.22,12.64,0.951
+Max Sharpe (no short),"Not permitted [0, 1]",33.4,19.53,1.494
+GMV (bounded short),"Bounded [-1, 1]",16.12,12.34,0.965
+Max Sharpe (bounded short),"Bounded [-1, 1]",35.04,19.86,1.553
+
+"Note: Sharpe ratio = (annualised mean return - risk-free rate) / annualised SD (eq. 12). Risk-free rate = 4.21% p.a.: 3-month US Treasury bill, bond-equivalent yield (BEY), source S&P Capital IQ, as of 3 Nov 2026. It is used only as the Sharpe-ratio benchmark; no risk-free asset is held in any portfolio. Percentages at 2 dp and Sharpe ratios at 3 dp for display only."
+"Source: Yahoo Finance via yfinance 1.2.0; daily prices adjusted for splits and dividends (auto_adjust=True), downloaded 2026-11-04 11:32:29 UTC. Sample: last-trading-day month-end prices 30 Sep 2016 to 30 Sep 2026, i.e. 120 monthly simple returns (Oct 2016 - Sep 2026). Currency: USD (all 15 are US listings; no currency conversion). Annualisation: mean x 12, SD x sqrt(12), covariance x 12."

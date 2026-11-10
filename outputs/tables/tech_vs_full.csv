@@ -1,0 +1,32 @@
+﻿"Table A1 (supporting): Tech-only vs full 15-stock universe"
+Section,Item,Measure,Value,Unit
+1. Average pairwise correlation,"Within tech (8 stocks, 28 pairs)",Average correlation,0.46550990049577917,ratio
+1. Average pairwise correlation,"Within non-tech (7 stocks, 21 pairs)",Average correlation,0.2642348856013251,ratio
+1. Average pairwise correlation,Between tech and non-tech (56 pairs),Average correlation,0.16890822583750564,ratio
+1. Average pairwise correlation,All 15 stocks (105 pairs),Average correlation,0.2670673376991425,ratio
+2. Equal-weighted portfolios,EW tech (8 stocks),Mean,0.3879322915643762,decimal (x100 = %)
+2. Equal-weighted portfolios,EW tech (8 stocks),SD,0.27742167725061256,decimal (x100 = %)
+2. Equal-weighted portfolios,EW tech (8 stocks),Sharpe,1.2465943360726062,ratio
+2. Equal-weighted portfolios,EW tech (8 stocks),Average individual SD,0.3772682966105224,decimal (x100 = %)
+2. Equal-weighted portfolios,EW tech (8 stocks),SD reduction vs average stock,0.26465679797894004,decimal (x100 = %)
+2. Equal-weighted portfolios,EW all 15 stocks,Mean,0.2811865038637822,decimal (x100 = %)
+2. Equal-weighted portfolios,EW all 15 stocks,SD,0.18091527824990714,decimal (x100 = %)
+2. Equal-weighted portfolios,EW all 15 stocks,Sharpe,1.3215384912573294,ratio
+2. Equal-weighted portfolios,EW all 15 stocks,Average individual SD,0.30886492339708765,decimal (x100 = %)
+2. Equal-weighted portfolios,EW all 15 stocks,SD reduction vs average stock,0.41425761054350585,decimal (x100 = %)
+2. Equal-weighted portfolios,"EW non-tech (7 stocks, reference)",Mean,0.15919131792024613,decimal (x100 = %)
+2. Equal-weighted portfolios,"EW non-tech (7 stocks, reference)",SD,0.13663815277363717,decimal (x100 = %)
+2. Equal-weighted portfolios,"EW non-tech (7 stocks, reference)",Sharpe,0.8569445322802813,ratio
+2. Equal-weighted portfolios,"EW non-tech (7 stocks, reference)",Average individual SD,0.23068963972459078,decimal (x100 = %)
+2. Equal-weighted portfolios,"EW non-tech (7 stocks, reference)",SD reduction vs average stock,0.40769705593730665,decimal (x100 = %)
+3. Net weight by group,GMV (no short),Tech/semis weight,0.12541593668981094,decimal (x100 = %)
+3. Net weight by group,GMV (no short),Non-tech weight,0.8745840633101891,decimal (x100 = %)
+3. Net weight by group,Max Sharpe (no short),Tech/semis weight,0.4517800212201091,decimal (x100 = %)
+3. Net weight by group,Max Sharpe (no short),Non-tech weight,0.548219978779891,decimal (x100 = %)
+3. Net weight by group,GMV (bounded short),Tech/semis weight,0.08213842520136883,decimal (x100 = %)
+3. Net weight by group,GMV (bounded short),Non-tech weight,0.9178615747986313,decimal (x100 = %)
+3. Net weight by group,Max Sharpe (bounded short),Tech/semis weight,0.3269092005358696,decimal (x100 = %)
+3. Net weight by group,Max Sharpe (bounded short),Non-tech weight,0.6730907994641304,decimal (x100 = %)
+
+"Note: support material only; the required frontiers and Tables 1-3 use all 15 stocks. Values are full precision: correlations and Sharpe ratios as ratios, other values as decimals (x 100 = %). Group weights are net (shorts negative)."
+"Source: Yahoo Finance via yfinance 1.2.0; daily prices adjusted for splits and dividends (auto_adjust=True), downloaded 2026-11-04 11:32:29 UTC. Sample: last-trading-day month-end prices 30 Sep 2016 to 30 Sep 2026, i.e. 120 monthly simple returns (Oct 2016 - Sep 2026). Currency: USD (all 15 are US listings; no currency conversion). Annualisation: mean x 12, SD x sqrt(12), covariance x 12."

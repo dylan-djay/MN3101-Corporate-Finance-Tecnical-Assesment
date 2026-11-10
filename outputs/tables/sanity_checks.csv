@@ -1,0 +1,8 @@
+check,description,result,detail
+1,Sharpe(Max Sharpe bounded short) >= Sharpe(Max Sharpe no short),PASS,1.552540 vs 1.494376  (gain from shorting +0.058164)
+2,SD(GMV bounded short) <= SD(GMV no short),PASS,12.342960% vs 12.635041%  (risk reduction 0.292081% points)
+3,Max Sharpe (no short) >= Sharpe of every point on its frontier,PASS,max-Sharpe portfolio 1.494376 vs best of 100 frontier points 1.494361
+3,Max Sharpe (bounded short) >= Sharpe of every point on its frontier,PASS,max-Sharpe portfolio 1.552540 vs best of 100 frontier points 1.552427
+4,GMV (no short) is the leftmost point of its frontier,PASS,GMV SD 12.63504119% vs lowest frontier SD 12.63504119%
+4,GMV (bounded short) is the leftmost point of its frontier,PASS,GMV SD 12.34295973% vs lowest frontier SD 12.34295973%
+5,Bounded-short frontier lies on or left of the no-short frontier (extra),PASS,largest (bounded SD - no-short SD) over 100 returns = -2.67e-03 (<= 0 means never to the right; 1e-6 allows for interpolation between grid points)

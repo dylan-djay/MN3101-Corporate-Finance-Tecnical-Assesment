@@ -1,0 +1,16 @@
+No.,Company,Ticker,Sector,Country,Market cap (USD bn),10-year beta
+1,Alphabet,GOOGL,Communication Services,United States,3442.68865536,1.117317227286091
+2,Meta Platforms,META,Communication Services,United States,1587.870040064,1.2497142992226422
+3,Apple,AAPL,Information Technology,United States,4823.230971904,1.1475587067034405
+4,NVIDIA,NVDA,Information Technology,United States,4990.943363072,1.8179126353390587
+5,Taiwan Semiconductor (ADR),TSM,Information Technology,Taiwan,2099.484557312,1.1482785320352678
+6,ASML Holding (US listing),ASML,Information Technology,Netherlands,598.222307328,1.445426209935028
+7,Micron Technology,MU,Information Technology,United States,967.479984128,1.7489161258104184
+8,Lam Research,LRCX,Information Technology,United States,288.728645632,1.5573241597507794
+9,ExxonMobil,XOM,Energy,United States,723.89885952,0.7628330360091374
+10,Newmont,NEM,Materials,United States,111.682093056,0.3880505164740251
+11,Walmart,WMT,Consumer Staples,United States,990.607572992,0.5332422570950539
+12,Johnson & Johnson,JNJ,Health Care,United States,640.753795072,0.4617194436762919
+13,NextEra Energy,NEE,Utilities,United States,176.865820672,0.44556677192888045
+14,JPMorgan Chase,JPM,Financials,United States,897.53976832,1.090479644062
+15,Coca-Cola,KO,Consumer Staples,United States,407.82036992,0.4704455007335686

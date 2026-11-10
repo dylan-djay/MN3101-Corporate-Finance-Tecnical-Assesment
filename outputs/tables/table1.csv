@@ -1,0 +1,20 @@
+﻿"Table 1: Descriptive statistics of the 15 stocks (annualised; monthly data, Oct 2016 to Sep 2026)"
+No.,Company,Ticker,Sector,Currency,Data source,Sample period,No. of monthly returns,Annualised mean return (%),Annualised SD (%)
+1,Alphabet,GOOGL,Communication Services,USD,"Yahoo Finance via yfinance 1.2.0 (adjusted close, auto_adjust=True)",Oct 2016 - Sep 2026,120,25.25,26.87
+2,Meta Platforms,META,Communication Services,USD,"Yahoo Finance via yfinance 1.2.0 (adjusted close, auto_adjust=True)",Oct 2016 - Sep 2026,120,24.17,36.42
+3,Apple,AAPL,Information Technology,USD,"Yahoo Finance via yfinance 1.2.0 (adjusted close, auto_adjust=True)",Oct 2016 - Sep 2026,120,29.42,27.13
+4,NVIDIA,NVDA,Information Technology,USD,"Yahoo Finance via yfinance 1.2.0 (adjusted close, auto_adjust=True)",Oct 2016 - Sep 2026,120,60.58,46.46
+5,Taiwan Semiconductor (ADR),TSM,Information Technology,USD,"Yahoo Finance via yfinance 1.2.0 (adjusted close, auto_adjust=True)",Oct 2016 - Sep 2026,120,34.79,32.88
+6,ASML Holding (US listing),ASML,Information Technology,USD,"Yahoo Finance via yfinance 1.2.0 (adjusted close, auto_adjust=True)",Oct 2016 - Sep 2026,120,35.13,34.74
+7,Micron Technology,MU,Information Technology,USD,"Yahoo Finance via yfinance 1.2.0 (adjusted close, auto_adjust=True)",Oct 2016 - Sep 2026,120,55.26,55.57
+8,Lam Research,LRCX,Information Technology,USD,"Yahoo Finance via yfinance 1.2.0 (adjusted close, auto_adjust=True)",Oct 2016 - Sep 2026,120,45.74,41.75
+9,ExxonMobil,XOM,Energy,USD,"Yahoo Finance via yfinance 1.2.0 (adjusted close, auto_adjust=True)",Oct 2016 - Sep 2026,120,14.54,28.39
+10,Newmont,NEM,Materials,USD,"Yahoo Finance via yfinance 1.2.0 (adjusted close, auto_adjust=True)",Oct 2016 - Sep 2026,120,19.0,34.29
+11,Walmart,WMT,Consumer Staples,USD,"Yahoo Finance via yfinance 1.2.0 (adjusted close, auto_adjust=True)",Oct 2016 - Sep 2026,120,18.25,19.17
+12,Johnson & Johnson,JNJ,Health Care,USD,"Yahoo Finance via yfinance 1.2.0 (adjusted close, auto_adjust=True)",Oct 2016 - Sep 2026,120,12.29,17.22
+13,NextEra Energy,NEE,Utilities,USD,"Yahoo Finance via yfinance 1.2.0 (adjusted close, auto_adjust=True)",Oct 2016 - Sep 2026,120,14.04,21.75
+14,JPMorgan Chase,JPM,Financials,USD,"Yahoo Finance via yfinance 1.2.0 (adjusted close, auto_adjust=True)",Oct 2016 - Sep 2026,120,21.73,24.34
+15,Coca-Cola,KO,Consumer Staples,USD,"Yahoo Finance via yfinance 1.2.0 (adjusted close, auto_adjust=True)",Oct 2016 - Sep 2026,120,11.58,16.33
+
+"Note: annualised mean = monthly arithmetic mean x 12 (eq. 3); annualised SD = monthly sample SD (ddof = 1) x sqrt(12) (eq. 4). Percentages rounded to 2 dp for display only."
+"Source: Yahoo Finance via yfinance 1.2.0; daily prices adjusted for splits and dividends (auto_adjust=True), downloaded 2026-11-04 11:32:29 UTC. Sample: last-trading-day month-end prices 30 Sep 2016 to 30 Sep 2026, i.e. 120 monthly simple returns (Oct 2016 - Sep 2026). Currency: USD (all 15 are US listings; no currency conversion). Annualisation: mean x 12, SD x sqrt(12), covariance x 12."

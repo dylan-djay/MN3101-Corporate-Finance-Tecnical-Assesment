@@ -1,0 +1,23 @@
+﻿"Table 3: Weights of the four optimal portfolios (% of portfolio value)"
+Ticker,Group,GMV (no short),Max Sharpe (no short),GMV (bounded short),Max Sharpe (bounded short)
+GOOGL,Tech/semiconductors,5.00,0.00 †,5.96,-4.39
+META,Tech/semiconductors,2.61,0.00 †,2.97,-10.21
+AAPL,Tech/semiconductors,1.98,8.08,1.03,11.08
+NVDA,Tech/semiconductors,0.00 †,22.07,1.23,26.55
+TSM,Tech/semiconductors,2.01,0.00 †,5.54,3.63
+ASML,Tech/semiconductors,0.00 †,0.00 †,-11.35,-22.38
+MU,Tech/semiconductors,0.95,9.94,4.19,9.51
+LRCX,Tech/semiconductors,0.00 †,5.09,-1.35,18.90
+XOM,Non-tech,7.02,0.75,6.34,-0.29
+NEM,Non-tech,1.72,11.73,1.29,13.84
+WMT,Non-tech,18.96,29.92,20.22,37.15
+JNJ,Non-tech,19.25,1.26,21.22,0.42
+NEE,Non-tech,12.51,0.00 †,13.04,-1.78
+JPM,Non-tech,3.47,5.74,4.72,7.16
+KO,Non-tech,24.53,5.43,24.95,10.81
+Sum of weights,,100.00,100.00,100.00,100.00
+Gross exposure (sum of |w|),,100.00,100.00,125.41,178.10
+No. of weights at a bound,,3,5,0,0
+
+"Note: weights in % of portfolio value; each column sums to 100%. Gross exposure = sum of |w|. Weights at a bound of their own case (no short: 0% or 100%; bounded short: -100% or 100%) are highlighted (marked † in the CSV): NVDA in GMV (no short) = 0.00%; ASML in GMV (no short) = 0.00%; LRCX in GMV (no short) = 0.00%; GOOGL in Max Sharpe (no short) = 0.00%; META in Max Sharpe (no short) = 0.00%; TSM in Max Sharpe (no short) = 0.00%; ASML in Max Sharpe (no short) = 0.00%; NEE in Max Sharpe (no short) = 0.00%."
+"Source: Yahoo Finance via yfinance 1.2.0; daily prices adjusted for splits and dividends (auto_adjust=True), downloaded 2026-11-04 11:32:29 UTC. Sample: last-trading-day month-end prices 30 Sep 2016 to 30 Sep 2026, i.e. 120 monthly simple returns (Oct 2016 - Sep 2026). Currency: USD (all 15 are US listings; no currency conversion). Annualisation: mean x 12, SD x sqrt(12), covariance x 12."

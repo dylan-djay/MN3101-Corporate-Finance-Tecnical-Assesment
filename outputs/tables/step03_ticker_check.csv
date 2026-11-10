@@ -1,0 +1,16 @@
+ticker,yahoo_name,quote_type,exchange,exchange_name,currency,first_trade,FLAG,note
+GOOGL,Alphabet Inc.,EQUITY,NMS,NasdaqGS,USD,2004-08-19,OK,Class A (voting); GOOG = Class C
+META,"Meta Platforms, Inc.",EQUITY,NMS,NasdaqGS,USD,2012-05-18,OK,ticker was FB until Jun-2022
+AAPL,Apple Inc.,EQUITY,NMS,NasdaqGS,USD,1980-12-12,OK,
+NVDA,NVIDIA Corporation,EQUITY,NMS,NasdaqGS,USD,1999-01-22,OK,
+TSM,Taiwan Semiconductor Manufacturing Company Limited,EQUITY,NYQ,NYSE,USD,1997-10-09,OK,ADR (1 ADR = 5 shares); home = 2330.TW in TWD
+ASML,ASML Holding N.V.,EQUITY,NMS,NasdaqGS,USD,1995-03-15,OK,NY registry share; home = ASML.AS in EUR
+MU,"Micron Technology, Inc.",EQUITY,NMS,NasdaqGS,USD,1984-06-01,OK,
+LRCX,Lam Research Corporation,EQUITY,NMS,NasdaqGS,USD,1984-05-04,OK,
+XOM,ExxonMobil Holdings Corporation,EQUITY,NYQ,NYSE,USD,1962-01-02,OK,
+NEM,Newmont Corporation,EQUITY,NYQ,NYSE,USD,1980-03-17,OK,
+WMT,Walmart Inc.,EQUITY,NMS,NasdaqGS,USD,1972-08-25,OK,moved NYSE -> Nasdaq Dec-2025
+JNJ,Johnson & Johnson,EQUITY,NYQ,NYSE,USD,1962-01-02,OK,
+NEE,"NextEra Energy, Inc.",EQUITY,NYQ,NYSE,USD,1973-02-21,OK,
+JPM,JPMorgan Chase & Co.,EQUITY,NYQ,NYSE,USD,1980-03-17,OK,
+KO,The Coca-Cola Company,EQUITY,NYQ,NYSE,USD,1962-01-02,OK,

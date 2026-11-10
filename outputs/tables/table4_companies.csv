@@ -1,0 +1,21 @@
+﻿"Table 4: The 15 companies: sector, country, market capitalisation and 10-year beta"
+No.,Company,Ticker,Sector,Country,Market cap (USD bn),10-year beta
+1,Alphabet,GOOGL,Communication Services,United States,3442.7,1.12
+2,Meta Platforms,META,Communication Services,United States,1587.9,1.25
+3,Apple,AAPL,Information Technology,United States,4823.2,1.15
+4,NVIDIA,NVDA,Information Technology,United States,4990.9,1.82
+5,Taiwan Semiconductor (ADR),TSM,Information Technology,Taiwan,2099.5,1.15
+6,ASML Holding (US listing),ASML,Information Technology,Netherlands,598.2,1.45
+7,Micron Technology,MU,Information Technology,United States,967.5,1.75
+8,Lam Research,LRCX,Information Technology,United States,288.7,1.56
+9,ExxonMobil,XOM,Energy,United States,723.9,0.76
+10,Newmont,NEM,Materials,United States,111.7,0.39
+11,Walmart,WMT,Consumer Staples,United States,990.6,0.53
+12,Johnson & Johnson,JNJ,Health Care,United States,640.8,0.46
+13,NextEra Energy,NEE,Utilities,United States,176.9,0.45
+14,JPMorgan Chase,JPM,Financials,United States,897.5,1.09
+15,Coca-Cola,KO,Consumer Staples,United States,407.8,0.47
+
+"Market cap: Yahoo Finance 'marketCap' via yfinance, USD billions, retrieved 2026-11-04 12:48:25 UTC (a current snapshot, not a sample-period value); GOOGL and META include all share classes; TSM (ADR) and ASML (NY shares) are Yahoo's USD values for the whole company."
+"10-year beta: OLS slope of each stock's 120 monthly simple returns (Oct 2016 - Sep 2026) on the monthly returns of the S&P 500 Total Return index (^SP500TR), beta = Cov(Ri, Rm) / Var(Rm) (eq. 18). Sector = GICS sector; country = headquarters."
+"Source: Yahoo Finance via yfinance 1.2.0; daily prices adjusted for splits and dividends (auto_adjust=True), downloaded 2026-11-04 11:32:29 UTC. Sample: last-trading-day month-end prices 30 Sep 2016 to 30 Sep 2026, i.e. 120 monthly simple returns (Oct 2016 - Sep 2026). Currency: USD (all 15 are US listings; no currency conversion). Annualisation: mean x 12, SD x sqrt(12), covariance x 12."
